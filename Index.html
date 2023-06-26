@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<title> ቤትና </title>  
+
+  
+
+</head>
+
+    <body style="background-color:rgb(194, 236, 222);">
+        <div class="div-header" id="divHeader">
+                <div class="div-logo" id="divLogo">
+                    <a href="Index.html"><img class="headerlogo" src="Photos/logo.jpg" id="logophoto"> </a> 
+                </div>
+                <div class="div-abus">
+                     <div class="spacera1"></div><a href="About- us.html">
+                     <div class="div-abus-1"> <p class="aboutus">  ብዛዕባና  </p> </div></a>
+                     <div class="spacera2"></div>
+                                       
+                
+                </div> 
+                <div class="div-stu"> 
+                    <div class="spacers1"></div>
+                    <a href="Students.html"><div class="div-stu-1">  <p class="students">   ንተመሃሮ    </p>  </div></a>  
+                    <div class="spacers2"></div>
+               
+                </div>  
+                <div class="div-vol">
+                    <div class="spacerv1"></div>
+                    <a href="volunteers.html"><div class="div-vol-1"> <p class="volunteers">      ንወለንተኛታት    </p></div></a>
+                    <div class="spacerv2"></div>
+                
+                </div>
+                <div class="div-con">
+                    <div class="spacerc1"></div>
+                    <a href="Contact-us.html"><div class="div-con-1">   <p class="contactus">        መራኸቢና    </p>  </div></a>
+                    <div class="spacerc2"></div>
+            
+                    
+                </div>
+        
+                
+         </div>
+
+         <img class="abus1stpage" src="Photos/about us 1st page.webp"> 
+    
+    
+ <style>
+
+
+.div-header{
+padding: 10px 16px;
+background: rgb(194, 236, 222);
+height: 120px;
+width: 1350px;
+position: fixed;
+top:0;
+}
+   
+   
+   .pagespacer {
+       display: block;
+       height: 100px;
+   }
+     
+   .div-logo{display: inline-block; width: 600px; vertical-align: top;}
+   .div-abus{display: inline-block; width: 150px; vertical-align: top;}
+   .div-stu{ display: inline-block; width: 150px; vertical-align: top;}
+   .div-vol{ display: inline-block; width: 150px; vertical-align: top;}
+   .div-con{ display: inline-block; width: 150px; vertical-align: top;}
+   
+     
+   .spacera1 {display:block; height: 33px;}
+   .div-abus-1 {display:block; height: 33px;cursor: pointer;}
+   .spacera2 {display:block; height: 34px;}
+   
+   .spacers1 {display:block; height: 33px;}
+   .div-stu-1 {display:block; height: 33px;cursor: pointer;}
+   .spacers2 {display:block; height: 34px;}
+   
+   .spacerv1 {display:block; height: 33px;}
+   .div-vol-1 {display:block; height: 33px;cursor: pointer;}
+   .spacerv2 {display:block; height: 34px;}
+   
+   .spacerc1 {display:block; height: 33px;}
+   .div-con-1 {display:block; height: 33px;}
+   .spacerc2 {display:block; height: 34px;}
+   
+   
+   .bpage { display: block; height: 600px;}
+   
+   .abus1stpage { height: 600px; width: 1350px; object-fit: cover;background-blend-mode: normal;} 
+
+  
+   
+   </style>
+
+<script>
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("divHeader");
+
+var sticky = header.offsetTop;
+
+
+   const logophoto = document.querySelector('#logophoto');
+   const divHeader = document.querySelector('#divHeader');
+   const divLogo = document.querySelector('#divLogo');
+
+   console.log(logophoto.style);
+
+   logophoto.style.width = '150px';
+
+   function myFunction() {
+  if (window.pageYOffset >0) {
+    logophoto.style.width = '150px';
+     
+  } else {
+    logophoto.style.width = '180px';
+    divHeader.style.background = 'rgb(194, 236, 222)';
+    
+  }
+} 
+
+</script>
+
+
+<footer>
+
+
+    <hr>
+</footer>
+<div class="footer"></div>
+
+</body>
+
+
+<footer>
+
+
+
+</footer>
+</html>
